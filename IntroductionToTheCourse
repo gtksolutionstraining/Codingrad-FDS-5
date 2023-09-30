@@ -1,0 +1,68 @@
+Data --> 
+--> Sensors
+--> Mobile Phones
+--> Internet
+--> IoT
+
+
+An Engineering Approach to organize the whole raw to data to an 
+extent of understandable information --> Data Engineering
+1. Data Ingestion
+    Tools: Nifi, Flume, Kafka, Streamsets
+2. Data Curation
+3. Data Warehousing
+4. Data Indexing
+5. Data Fingerprinting
+6. Data Tagging
+7. Data Lineage.
+
+Technologies: --> Distributed Computing
+    Frameworks: --> Hadoop, Spark, Cloud, Redshift, Athena, Quicksight
+
+Programming Language --> Python, Scala, SQL
+    Programming Frameworks: --> PySpark, Hive, Impala
+
+
+Data Analysis
+    1. Understand the data 
+    2. Analyze the data
+--> Big Data Analysis: Distributed Computing
+--> Spark, Hive, Impala, Athena, Glue, Quicksight
+--> Python 
+--> Python Frameworks: Pandas, Numpy, Dask, Ydata Profiling, Data Prep, DataViz, etc.
+--> Tools: Visulazation Tools
+
+Data Science:
+--> Statistical Analysis
+--> Machine Learning
+--> ML Diagnosis of data 
+--> Prediction
+--> Structural Machine Learning
+--> basic Machine Learning models --> Linear Regressions to Decision Trees and all
+--> Neural Networks
+--> Computer Vision Algorithms
+--> Large Language Models --> LLMs
+
+Linux basics:
+Python:
+1. LMS --> Functional Programming
+2. System Designs 
+    1. OOPs
+
+Pandas, Numpy
+GitHub
+SQL
+
+
+Python -->
+    1. DevOps Engineer -->
+    2. Automation Engineer
+    3. Python Developer
+    4. Backend Developer
+    5. Fullstack Developer
+
+
+
+
+
+

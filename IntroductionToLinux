@@ -1,0 +1,86 @@
+Computer:
+    1. CPU 
+    2. Memory
+    3. Disk -- I/O
+
+Machine Language --> 0,1
+
+000001010
+
+SET R1 1
+SET R2 2
+ADD R1, R2
+
+Operating System --> Manages CPU Tasks, Memory, Disk
+    1. Process Management
+    2. Memory Management
+    3. I/O Management
+
+
+Application Software/Clients/Users
+
+
+Application Users
+
+OS Types:
+    1. Linux
+    2. MacOs
+    3. Windows
+
+1. Linux:
+    1. Its an open-source software
+    2. Its a large community Software
+
+Linux: Terminal
+1. user@desktop
+    --> user is connecting this particular computer
+    --> Server's IP Address or Domain Name
+    --> ssh saikrishna@zomatohd
+    --> ~ --> It indicates HOME Directory
+
+2. Linux File System
+    --> / --> Root Directory
+    --> /usr, /bin, /home, /mnt, /lib, /sbin, /slib, /opt, /tmp, /var
+    --> /home/user1, /home/user2
+    --> HOME Directory --> /home/<username> -- in linux
+                       --> /Users/gtk -- in macos
+                       --> /c/Users/<username> -- in windows
+3. PATH:
+    --> Absolute PATH :: Path of a folder defined from Root Path
+    --> Relative PATH :: Path of a folder defined from Present Working Directory
+3. Linux Basic Commands:
+    1. cd --> Change Directory
+        1. cd <location of the directory>
+    2. ls --> listing
+        1. Listout files and folders of the present working directory
+        2. ls -l --> Extra information
+        3. ls -a --> All files including hidden files
+    3. clear --> clear the screen --> ctrl+l
+    4. pwd --> It will give where you are
+    5. mkdir --> make directory
+        1. mkdir CodinGrad
+    6. rm -r --> is to delete the directory
+        2. -r is an option saying that remove the folder recursively
+    7. vim Editor:
+        1. vim <filename.extension>
+        2. vim editor 
+            1. command mode --> you need to press esc
+                1. :q --> quit
+                2. :q! --> quit without saving
+                3. :w --> write/save
+                4. :wq --> Save and exit 
+                5. :w! --> Overrite
+                6. :set nonu --> no line numbers
+                7. :set nu --> line numbers
+            2. insertion mode --> If you press "i" or insert button
+    
+Environment Variables:
+PATH
+HOME --> /Users/gtk
+PYTHONPATH
+JAVAPATH
+JAVA_HOME
+LD_LIBRARY_PATH
+
+
+
