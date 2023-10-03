@@ -1,0 +1,38 @@
+1. Python Open Source Language
+2. Python Large Community
+3. APIs --> Application Programming Interface
+4. AWS
+5. Infrastructure as Code --> IaC 
+    1. Terraform
+    2. Python --> AWS CDK --> Cloud Formation
+6. XYZ
+7. All Data Science and Machine Learning Libraries
+8. Automation Projects
+
+==> Python Programming
+1. Interpreted Language
+--> High Level Languages --> Easily Readable and Understandable languages
+--> Low Level Languages --> Assembly Language, C/C++
+--> High Level Language -----------------------> Binary 0/1
+
+--> Transformation methods: 
+    1. Compilation
+    2. Interpretation
+    3. Hybrid
+
+Compilation --> Whole Code will be compiled once and convert the whole to code Binary
+Interpretation --> 
+    1. Compilation Time --> Code --> Binary 
+    2. Execution Time --> Binary --> CPU 
+    3. Total Time = Compilation Time + Execution Time
+
+C/C++ --> Compilation Languages
+    1. Compilation time is more --> Execution time is very very fast
+    2. Platform Dependent Languages
+Python --> Interpretation Language
+    1. Transformation Time is less --> Execution time is vere very slow
+
+Java --> Hybrid Language
+    1. Java Code --> Compile --> Byte Code 
+    ** JVM
+    2. Binary Code --> Interpret (line by line execute)
