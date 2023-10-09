@@ -1,0 +1,23 @@
+Python --> Global Environment
+
+HMS --> Pandas, Numpy --> 1.21.1, OS ==> Pandas==1.1.2 --> CentOS--> 7
+
+ML --> Pandas, jfdsbf, Tensorflow==2.4.1, Pandas==1.1.2 --> Ubuntu 18--> GCC 11+
+
+ML --> PyTorch==1.0.0 -> Numpy== 0.12.0
+
+--> Local Environment --> Virtual / Isolated Environment (hms)
+    (Pandas == 1.1.1, Numpy == 1.2.1, )
+
+--> Local Environment --> (ml)
+    (Tensorflow == 2.4.1, Pandas ==1.1.2)
+
+
+
+==> Enviroments are Logical Seperated 
+
+
+Hypervisor
+Docker Images --> CentOS 7.1
+Containerization
+

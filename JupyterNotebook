@@ -1,0 +1,9 @@
+1. jupyter Notebook is a web based interactive python application.
+2. From where we are starting the jupyter server, the same location is the root location for the service
+-- The jupyter is mounted at the pwd where we started jupyter service.
+3. Kernal
+    1. Users and Computer
+3. Files
+    1. Console
+
+

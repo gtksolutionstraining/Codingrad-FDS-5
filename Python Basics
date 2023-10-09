@@ -1,0 +1,30 @@
+We can use Python Interpreter as a basic Calculator
+
+Tasks --> Is a programm which takes an input and do some logic and give u an doutput.
+
+A Programm which takes a number and so sqrt operation and gives a sqrt of the given number. --> Function
+
+Most of the mathematical operations have already defined functions
+
+--> Collection of utilities is called a module.
+
+
+By default --> Python will provide some inbuild modules.
+    1. math --> It will provide utilities related to mathematical operations
+    2. os   --> It will provide utilites related to operating system commands --> mkdir, cd, create_file, listing directory
+    3. json
+    4. sys --> Raw provision for operating system
+    6. importlib --> 
+
+Custom Modules --> 3rd party modules
+    1. pandas 
+    2. numpy
+    3. scikit-learn
+    4. scipy
+    5. tensorflow
+    6. pytorch
+    7. dask
+    8. ydata-profiling
+    9. dataprep.eda
+    10. matplotlib
+    11. opencv

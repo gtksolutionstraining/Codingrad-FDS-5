@@ -1,0 +1,12 @@
+1. Python Installation
+2. Python PATH Setting
+3. Pip --> Installation tool
+4. pip install virtualenv --> virtualenv installed
+5. virtualenv <name> --> From which folder u are writing this command in that folder a new folder (env folder) will be created
+6. source <name>/Scripts/activate
+7. pip install jupyter 
+8. jupyter notebook
+
+
+Assignment --> environment --> pip install pandas
+           --> environment --> pip install numpy
