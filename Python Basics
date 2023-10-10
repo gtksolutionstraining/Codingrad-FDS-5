@@ -28,3 +28,17 @@ Custom Modules --> 3rd party modules
     9. dataprep.eda
     10. matplotlib
     11. opencv
+
+"." --> Membership operator for the module and function.
+
+module.function
+
+
+Every Programm is data driven programm
+
+    1. Data
+    2. Logic around the data
+
+
+2+2
+
