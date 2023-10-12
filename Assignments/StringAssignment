@@ -1,0 +1,11 @@
+Take idioms, Write them 
+Indexing and Slicing of Strings
+Practice important functions in Strings
+"id,name,age,phone,address"
+person1 = "001 tharun 34 988766398 dfsdb8jhbhsd"
+person2 = ""
+
+1. Extract all phone numbers of all persons
+2. 001::tharun::34::988766398::dfsdb8jhbhsd
+
+Practice fstrings

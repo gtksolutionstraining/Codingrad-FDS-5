@@ -1,0 +1,14 @@
+Variable: A name or an alias assigned to the data
+    Example: a = 5, b = 7, oil_packets = 900
+    Rules to Write Variable Names:
+        1. All variable names should start with alphabets or _ 
+        2. Variable names should make sense
+        3. Variable Wording
+            1. CamalCase --> Space will be replaced by Capital letter
+                Example: oilPackets
+            2. snake_case --> Space will be replaced by _
+
+DataTypes:
+    1. Integer DataTypes --> 32bit --> 4B --> 4*8bit
+    2. Floating Point DataTypes --> 64bit --> 8B --> 8*8bit 
+    3. 
