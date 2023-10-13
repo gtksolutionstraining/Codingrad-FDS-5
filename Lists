@@ -1,0 +1,27 @@
+Data Structuring: Is an engineering approach to effciently store and manipulate the data.
+    1. Data Structures
+        1. All primitive data types
+            int,float,string,character,boolean
+        2. Array
+        3. Stacks
+        4. Queues
+        5. LinkedLists --> List
+        6. Hashing --> Hashmap --> dictionary
+        7. Tree
+        8. Graph
+
+List is an ordered collection of elements of any type 
+
+Array --> Is a continuous memory allocation of same datatype
+
+    Array Initial address --> 1000B
+    Every element integer --> 4B
+
+    location address --> inital_address + (location-1)*size of the data type
+
+    5th location address --> 1000B + (4)*4B => 1004B
+
+
+Accessing Time Complexity for 'n' of elements
+    1. List --> O(n)
+    2. Array --> O(1)
