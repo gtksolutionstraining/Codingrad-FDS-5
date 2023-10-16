@@ -25,3 +25,13 @@ Array --> Is a continuous memory allocation of same datatype
 Accessing Time Complexity for 'n' of elements
     1. List --> O(n)
     2. Array --> O(1)
+
+Insertion Time Complexity for 'n' of elements
+    1. List --> O(1)
+    2. Array --> O(n)
+
+Array -->Accessing Time is O(1) and also Insertion Time as O(n)
+List -->Insertion Time is O(1) and Accessing Time is O(n)
+
+Hashmap/Dictionary --> Accessing Time is O(1) and Insertion Time is also O(1)
+                              O(logn)                         O(logn)
