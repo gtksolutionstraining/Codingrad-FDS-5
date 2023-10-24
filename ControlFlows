@@ -1,0 +1,26 @@
+1. Conditional Execution
+2. Repeated Execution -- Loops
+3. Functions
+
+1. Conditional Execution:
+    1. if else 
+    2. if elif else
+    3. Multilevel if else
+    4. Nested if else
+
+2. Repeated Execution -- Loops:
+    1. for loop 
+    2. for-each loop
+    3. inline for loop 
+    4. while loop
+
+3. Functions:
+    1. Positional Argument Functions
+    2. Default Argument Functions
+    3. Keyword Argument Functions
+    4. *, \ Functions
+
+4. Advanced Functions
+    1. lambda
+    2. filter
+    3. map

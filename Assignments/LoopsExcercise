@@ -1,0 +1,24 @@
+1. Given a name and a list of names, you need to find the count of the name present in the list
+Example: ['a','b','a','a','c'] and x = 'a' --> 'a' occures 3 times
+
+2. Given a name and a list of names, you need to find the index of the given name in the list for the first time
+
+3. Given a name and a list of names, you need to find the index of the given name in the list for the second time
+
+4. Given a name and a list of names, you need to find the element indices which occurs exactly 2 times.
+    Example: [1,1,1,1,2,2,3,4,4,5], 2
+    output: [5,6]
+    input: 1
+    output: 1 occurs more than 2 times.
+    input: 5
+    output: 5 occurs only one time.
+    input: 8
+    outut: 8 is not in list.
+
+5. Given a list, you need filter even numbers in evenlist, and also filter odd numbers in oddlist and at the end print all the even and odd list with their total no of elements.
+    Example: 
+    input: input_list = list(range(20))
+    output: even_list = [2,4,...,20], 
+            odd_list = [1,3,5,...,19], 
+
+6. Find a given number is prime number or not.
