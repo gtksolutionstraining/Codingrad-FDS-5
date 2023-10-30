@@ -6,6 +6,9 @@ from commons.config import (
 
 LMS = {}
 
+LMS["ADMINS"] = []
+LMS["ADMINS"].append({"USERNAME":"Admin", "PASSWORD":"Admin123"})
+
 LMS["BOOKS"] = {}
 
 for branch in BRANCHES:

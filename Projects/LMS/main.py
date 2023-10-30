@@ -5,16 +5,24 @@ main.py:
 import sys
 sys.path.append("/Users/gtk/GTK/CodinGrad/Codingrad-FDS-5/Projects/LMS/")
 from assets.data import LMS
+from utils.display import display_lms
+from utils.login import login
 
 def main():
+    """main
+    This is a starting function for LMS
+    Arguments:
+    Returns:
+    """
     print("*"*25)
     print("Welcome to LMS!")
     print("*"*25)
-    print("LMS Library is: ")
-    print(LMS)
-    # branches = LMS["BOOKS"]
-    # years = 
-
-
+    status = login(LMS)
+    if status:
+        print("Authentication Successfull..!")
+        display_lms()
+    else:
+        print("Authentication Failure...!")
+   
 if __name__ == "__main__":
     main()
