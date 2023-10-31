@@ -1,3 +1,10 @@
+from utils.books import manage_books
+from utils.validate import validate_choice
+from commons.config import(
+    YEARS,
+    SEMS,
+    BRANCHES
+)
 def display_books(LMS):
     for book,bookValues in LMS.items():
         print(book)
@@ -28,21 +35,42 @@ def display_books(LMS):
         # else:
         #     print("Wrong Input....Please select 1/2/3..!")
 
+def display_lms_menu():
+    print("LMS Menu:")
+    print("1. BOOKS")
+    print("2. USERS")
+    print("3. Logout")
 
-def display_lms():
+def display_year():
+    i = 1
+    for year in YEARS:
+        print(f"{i}: {year}")
+        i += 1
+
+def display_sem():
+    i = 1
+    for sem in SEMS:
+        print(f"{i}: {sem}")
+        i += 1
+
+def display_branch():
+    i = 1
+    for branch in BRANCHES:
+        print(f"{i}: {branch}")
+        i += 1
+        
+def display_lms(LMS):
     status = True
     while status:
-        print("LMS Menu:")
-        print("1. BOOKS")
-        print("2. USERS")
-        print("3. Exit")
-        choice = int(input("Please select any of the above!"))
+        display_lms_menu()
+        choice = validate_choice()
         if choice == 1:
-            print("Showing BOOKs Menu")
+            manage_books(LMS)
         elif choice == 2:
             print("Showing USERS Menu")
         elif choice == 3:
-            print("Exiting..!")
+            print("Logging out..!")
+            print("Thank you!")
             status = False
         else:
             print("Wrong Input....Please select 1/2/3..!")

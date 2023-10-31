@@ -1,12 +1,13 @@
 """
 main.py:
     This is a starting point for the LMS
+Authors: tharunkumargoka2020@gmail.com
 """
 import sys
 sys.path.append("/Users/gtk/GTK/CodinGrad/Codingrad-FDS-5/Projects/LMS/")
 from assets.data import LMS
 from utils.display import display_lms
-from utils.login import login
+from utils.validate import login
 
 def main():
     """main
@@ -20,7 +21,7 @@ def main():
     status = login(LMS)
     if status:
         print("Authentication Successfull..!")
-        display_lms()
+        display_lms(LMS)
     else:
         print("Authentication Failure...!")
    
