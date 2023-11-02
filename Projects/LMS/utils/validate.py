@@ -29,3 +29,9 @@ def login(LMS):
         else:
             continue
     return status
+
+def validate_user(LMS):
+    ## User RollNumber and Name and other info
+    ## LMS["USERS"][branch][year][sem] 
+    ## return True/False status
+    pass

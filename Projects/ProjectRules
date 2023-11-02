@@ -1,0 +1,27 @@
+1. Define the problem
+2. Propose a basic solution
+3. Work on it to produce MVP/Prototype/POC 
+    1. Do it as quick as possible.
+    2. Give a Demo to Stakeholders/Product owners -- MBA
+    3. Maximum it should take 1 sprint (15 days)
+--> Project is approved for current financial year.
+4. Software Engineering Principles
+    1. Agile Principle 
+        1. Project management tools
+            1. Jiira
+        2. Scope the details
+        3. Architect the solution
+        4. Divide the solution into parts
+            1. Stories
+        5. Each Story will have Tasks
+            1. These tasks will be assigned to developers
+            2. Story Points --> 
+            3. 1 Sprint -->
+                1. 15 days
+                2. how much a developer worked 
+                3. how much developer should work --> 8 story points       
+            4. story point --> 1,2,3,5
+            5. A developer will be given 8 story points in one sprint as tasks
+        6. Standup Calls
+        7. Grooming Sessions -- before starting a sprint
+        8. Sprint Retrospective meeting

@@ -1,5 +1,3 @@
-from utils.books import manage_books
-from utils.validate import validate_choice
 from commons.config import(
     YEARS,
     SEMS,
@@ -42,35 +40,22 @@ def display_lms_menu():
     print("3. Logout")
 
 def display_year():
+    print("Years:")
     i = 1
     for year in YEARS:
         print(f"{i}: {year}")
         i += 1
 
 def display_sem():
+    print("Semesters:")
     i = 1
     for sem in SEMS:
         print(f"{i}: {sem}")
         i += 1
 
 def display_branch():
+    print("Branches:")
     i = 1
     for branch in BRANCHES:
         print(f"{i}: {branch}")
         i += 1
-        
-def display_lms(LMS):
-    status = True
-    while status:
-        display_lms_menu()
-        choice = validate_choice()
-        if choice == 1:
-            manage_books(LMS)
-        elif choice == 2:
-            print("Showing USERS Menu")
-        elif choice == 3:
-            print("Logging out..!")
-            print("Thank you!")
-            status = False
-        else:
-            print("Wrong Input....Please select 1/2/3..!")
