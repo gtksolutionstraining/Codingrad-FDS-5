@@ -6,6 +6,9 @@ def validate_choice():
             status = False
         except ValueError as ve:
             print("Please enter number only!")
+        except Exception as e:
+            print(f"[ERROR]:{e}")
+            print("OOPs, Something went wrong")
     return choice
 
 def login(LMS):

@@ -1,0 +1,29 @@
+
+Programming Paradigms/Styles:
+
+The context for writing a Programm/Software is: 
+    1. Easy to Write
+    2. Easy to Understand
+    3. Scalable Software  ->>Feasibility to Scale
+    4. Robustness
+    5. Easy to maintain
+    6. Integrate to 3rd Party Applications.
+
+
+1. Functional Programming
+2. Imperative Programming
+3. Declerative Programming
+4. Object Oriented Programming
+    1. SOLID Principles & Design Patterns
+
+
+OOPs:
+1. Object
+2. Class
+3. Member Variables
+4. Member Functions
+5. Access Specifiers
+6. Abstraction
+7. Encapsulation
+8. Inheritance
+9. Polymorphism

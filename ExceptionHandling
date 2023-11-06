@@ -1,0 +1,34 @@
+Robustness of the Software.
+
+Exception Handling is a software principle which will make your software more robust.
+
+The situation encountered by a wierd input to the software is called Exception.
+
+If This Exception is not handled then its called Crash
+
+If this Exception is handled then its Exception Handling -> More Robust.
+
+Exception Handling:
+    1. Try Block
+    2. Catch Block
+
+1. Try Block: 
+    --> We know Exception then Add Exception code in a block called Try Block
+    --> If we dont get any wierd input then Try Block will execute smoothly.
+    --> If we get a weird input then Try Block will raise an Exception.
+    --> In a single Try block you can have multiple statements which can raise exceptions.
+    --> For each exception we need handle different way.
+
+2. Catch Block:
+    --> Catch Block Catches the respective Exception raised by the Try Block
+    --> We will write the code to handle such Exception
+
+
+Exception is a Folder
+    1. ValueError
+    2. IndexOutofBound
+    3. ...
+
+
+Note: Exception Precedence.
+    ==> All specific Exception should be handled first and then the main Exception can be handled.
