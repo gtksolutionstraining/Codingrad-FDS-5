@@ -1,0 +1,42 @@
+The focus on software development is around the data rather around the functions.
+
+OOPs:
+1. Class
+2. Object
+
+
+1. Class: Class is a blueprint/Description/Logical Entity
+
+Describing about an Entity through its properties and actions is called Class.
+
+A class is blueprint of an entity
+
+All classes logical entities.
+
+2. Object: Object is an instance of a class/ Physical Entities.
+3. Member Variables: Member Variables are the properties of the class --> 
+4. Member Methods: Member Methods are the actions defined in the class. 
+
+Define Human.
+
+
+**Constructor**: Constructor will instantiate an object.
+
+. ==> Membership Operator.
+
+1. Default Constructor
+    -> Every class will have a default constructor.
+2. Constructors with no parameters
+3. Constructors with parameters
+4. Copy Constructures
+
+Constructor Overloading --> Python doesn't support it.
+
+Abstraction(ADT): Data hiding
+
+Access Specifiers: ==> Private Protected Public
+
+__ ==> Access Specifier for Private
+_ ==> Acess Specifier for Protected
+
+Encapsulation: Binding Member Variables and Member functions

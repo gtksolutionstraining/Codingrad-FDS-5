@@ -21,7 +21,11 @@ OOPs:
 1. Object
 2. Class
 3. Member Variables
+    -- Instance variables
+    -- Class Variables
 4. Member Functions
+    -- Instance Functions
+    -- Class Functions
 5. Access Specifiers
 6. Abstraction
 7. Encapsulation
