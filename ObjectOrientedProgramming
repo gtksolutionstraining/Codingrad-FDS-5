@@ -40,3 +40,51 @@ __ ==> Access Specifier for Private
 _ ==> Acess Specifier for Protected
 
 Encapsulation: Binding Member Variables and Member functions
+
+Instance Variables/Functions:
+
+1. By Default every function is instance function
+2. Variables defined inside constructor or defined using self keyword are called instance variables.
+3. An instance function will have self keyword the argument list
+
+Class Variables/Class Functions:
+
+1. A class variable is a variables in the class outside of all the functions 
+2. A class function is a function in the class with "cls" as a parameter in the function and @classmethod as decorator.
+
+Every class variable/class function is globally accessible for every object/instance.
+
+
+All Private Variables and All Private methods will be accessible inside the class only.& Private functions mostly used for Object Construction in private way.
+
+Private Properties --> If you want to access outside then ->
+    1. Getters
+    2. Setters
+
+Public Properties --> Can be accessed anywhere.
+
+
+Inheritance:
+1. Single Level Inheritance
+2. Multi Level Inheritance
+3. Multiple Inheritance
+4. Hierarchial Inheritance
+5. Hybrid Inheritance
+
+==> Base Class --> Parent Class
+==> Child Class
+
+*** All public properties and all public functions can be accessed inside and as well as outside of the child class.
+*** All private properties and all private functions cannot be accessd inside and as well outside of the child class.
+
+*** All protected properties and all protected functions can be accessed inside the child class.
+
+*** All protected properties and all protected functions can be accessible inside the same module only, but in python or any interpreted language it can be accessed anywhere since interpreter maintain only module.
+
+Polymorphism:
+1. Static Polymorphism --> Method Overloading --> Not supported in Python
+2. Dynamic Polymorphism --> Method Overriding
+    1. static method overriding
+        "membership" operator
+    2. dynamic method overriding
+        "pointer" operator
