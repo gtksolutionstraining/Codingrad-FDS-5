@@ -1,0 +1,36 @@
+File Systems
+    1. Redundancy
+    2. Isolation
+    3. Security
+    4. Integrity
+    5. Maintainace
+        1. Primary Backup
+        2. Secondary Backup
+
+E.F Codd --> Relational Model --> RDBMS
+
+    Database --> All information related Banking & Hadoop => Apache Spark(In memory Big data Management system)
+        --> Tables data
+    
+
+    Database Engine --> SQL Engine --> JDBC, ODBC --> Hive, Impala, Cassendra
+
+    SQL
+
+Types Databases:
+    1. Relational Database
+        1. MySQL
+        2. Oracle
+        3. SQL Server
+        4. PostgreSQL
+    2. Unstructured/Semi Structured Data/NoSQL
+        1. MongoDB
+        2. DynamoDB
+    3. BigData
+        1. AWS Athena, AWS Glue
+        2. Google BigQuery
+        3. AWS Redshift
+        4. AWS EMR
+
+Database Management System
+    1. ER-Modelling
